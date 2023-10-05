@@ -143,3 +143,35 @@ var copyStudents = students.slice(1 , 6)
 console.log(students)
 console.log(copyStudents)
 
+// for(var i = 0; i < 2; i++){
+//     alert("Hello dear Maliha here")
+// }
+// document.write("2" + "x" + "1" + "=" + 2*1 + "<br>")
+// document.write("2" + "x" + "2" + "=" + 2*2 + "<br>")
+// document.write("2" + "x" + "3" + "=" + 2*3 + "<br>")
+ 
+for (var i = 1; i <= 10; i++)
+document.write("2" + "x" + i + "=" + 2*i + "<br>")
+ 
+
+var names = ["maliha", "waleed", "ahmar"];
+
+for(var i = 0; i < names.length; i++){
+    console.log(names[i])
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
