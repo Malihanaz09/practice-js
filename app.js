@@ -1,10 +1,12 @@
+       //practice of alert
 alert("welcome to my website");
 
 //  var a = 5;
 //  var b = 10;
 //  var c = a+b;
 // alert(c);
-   
+
+     //practice of console
 console.log("Hello World!")
 
 // var p = 20;
@@ -38,7 +40,8 @@ console.log(z);
 // var b = a++ + ++a - a + a++ - ++a + a; 
 //      // 5     12     7   12    7    12
 // alert(b);
-
+         
+         //practice of prompt
 var a = +prompt("Enter yuor email", "your email is");
 
 // var x = "enter your value";
@@ -46,6 +49,9 @@ var a = +prompt("Enter yuor email", "your email is");
 // var z = +prompt(x,y);
 // var a = z + 10
 // document.write("the output is" + ""+ a);
+ 
+
+         //practice of if & else
 
 // var age = +prompt("enter your age");
 // var gender = prompt("enter your genter");
@@ -101,7 +107,8 @@ var a = +prompt("Enter yuor email", "your email is");
 // else{
 //      alert("you didnot write correct percentage")
 // }
-
+       
+           //practice of arraye
 var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
 
 console.log(students[3])
@@ -142,7 +149,8 @@ var copyStudents = students.slice(1 , 6)
 
 console.log(students)
 console.log(copyStudents)
-
+    
+             //practice of loop
 // for(var i = 0; i < 2; i++){
 //     alert("Hello dear Maliha here")
 // }
@@ -159,16 +167,32 @@ var names = ["maliha", "waleed", "ahmar"];
 for(var i = 0; i < names.length; i++){
     console.log(names[i])
 }
+// var cities = ["lahore", "islamabad", "karachi", "faislabad"];
+// for(var i = 0; i < cities.length; i++){
+//     if(cities[i] === "karachi"){
+//         alert(cities[i] + "is a cleanest city")
+//     }
+// }
 
+for(var i = 1; i > 0; i++){
+    if (i === 10){
+        break
+    }
+    console.log("hello world")
+}
+// for(var i = 0; i < 5; i++){
+//     for(var j = 0; j < 3; j++){
+//         document.write("Pakistan Zindabad" + "<br>")
+//     }
+// }
+// var firstNames = ["Zain", "Waleed", "Ahmar"]
+// var lastNames = ["Ali", "Ahmad"]
 
-
-
-
-
-
-
-
-
+// for(var i = 0; i < firstNames.length; i++){
+//     for(var j = 0; j < lastNames.length; j++){
+//         console.log(firstNames[i] + " " + lastNames[j])
+//     }
+// }
 
 
 
