@@ -1,27 +1,24 @@
        //practice of alert
 alert("welcome to my website");
 
-//  var a = 5;
-//  var b = 10;
-//  var c = a+b;
-// alert(c);
 
-     //practice of console
+
+     //Practice exercise 1.2
 console.log("Hello World!")
 
-// var p = 20;
-// var q = 10; 
-// var r = (p-q);
+// let p = 20;
+// let q = 10; 
+// let r = (p-q);       
 // console.log(r);
 
-// var x = "syeda";
-// var y = "maliha";
-// var z = x+y;
+// let x = "syeda";
+// let y = "maliha";
+// let z = x+y;
 // alert(z);
 
-
+     //Practice exercise 1.1
 var x = "syeda";
-var y = 20;
+var y = "Maliha";
 var z = x+y;
 console.log(z);
 
@@ -49,7 +46,12 @@ var a = +prompt("Enter yuor email", "your email is");
 // var z = +prompt(x,y);
 // var a = z + 10
 // document.write("the output is" + ""+ a);
- 
+
+
+     //practice of random numbers
+
+     console.log(Math.random() * 1000);
+    console.log(Math.floor(Math.random() * 10));
 
          //practice of if & else
 
@@ -109,77 +111,77 @@ var a = +prompt("Enter yuor email", "your email is");
 // }
        
            //practice of arraye
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
 
-console.log(students[3])
+// console.log(students[3])
 
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-students.pop()
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
+// students.pop()
 
-console.log(students)
+// console.log(students)
 
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-students.push("yusra" , "manahil")
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
+// students.push("yusra" , "manahil")
 
-console.log(students)
+// console.log(students)
 
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-students.shift()
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
+// students.shift()
 
-console.log(students)
+// console.log(students)
 
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-students.unshift("ali")
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
+// students.unshift("ali")
 
-console.log(students)
+// console.log(students)
 
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
-students.splice(1 , 2 , "bilal")
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
+// students.splice(1 , 2 , "bilal")
 
-console.log(students)
+// console.log(students)
 
 
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
-students.splice(1 , 4)
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
+// students.splice(1 , 4)
 
-console.log(students)
+// console.log(students)
 
-var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
-var copyStudents = students.slice(1 , 6)
+// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
+// var copyStudents = students.slice(1 , 6)
 
-console.log(students)
-console.log(copyStudents)
+// console.log(students)
+// console.log(copyStudents)
     
-             //practice of loop
-// for(var i = 0; i < 2; i++){
-//     alert("Hello dear Maliha here")
+//              //practice of loop
+// // for(var i = 0; i < 2; i++){
+// //     alert("Hello dear Maliha here")
+// // }
+// // document.write("2" + "x" + "1" + "=" + 2*1 + "<br>")
+// // document.write("2" + "x" + "2" + "=" + 2*2 + "<br>")
+// // document.write("2" + "x" + "3" + "=" + 2*3 + "<br>")
+ 
+// for (var i = 1; i <= 10; i++)
+// document.write("2" + "x" + i + "=" + 2*i + "<br>")
+ 
+
+// var names = ["maliha", "waleed", "ahmar"];
+
+// for(var i = 0; i < names.length; i++){
+//     console.log(names[i])
 // }
-// document.write("2" + "x" + "1" + "=" + 2*1 + "<br>")
-// document.write("2" + "x" + "2" + "=" + 2*2 + "<br>")
-// document.write("2" + "x" + "3" + "=" + 2*3 + "<br>")
- 
-for (var i = 1; i <= 10; i++)
-document.write("2" + "x" + i + "=" + 2*i + "<br>")
- 
+// // var cities = ["lahore", "islamabad", "karachi", "faislabad"];
+// // for(var i = 0; i < cities.length; i++){
+// //     if(cities[i] === "karachi"){
+// //         alert(cities[i] + "is a cleanest city")
+// //     }
+// // }
 
-var names = ["maliha", "waleed", "ahmar"];
-
-for(var i = 0; i < names.length; i++){
-    console.log(names[i])
-}
-// var cities = ["lahore", "islamabad", "karachi", "faislabad"];
-// for(var i = 0; i < cities.length; i++){
-//     if(cities[i] === "karachi"){
-//         alert(cities[i] + "is a cleanest city")
+// for(var i = 1; i > 0; i++){
+//     if (i === 10){
+//         break
 //     }
-// }
+//     console.log("hello world")
 
-for(var i = 1; i > 0; i++){
-    if (i === 10){
-        break
-    }
-    console.log("hello world")
-}
 // for(var i = 0; i < 5; i++){
 //     for(var j = 0; j < 3; j++){
 //         document.write("Pakistan Zindabad" + "<br>")
