@@ -1,45 +1,41 @@
-       //practice of alert
+      //chapter "1"
+      //practice of alert
 alert("welcome to my website");
-
+ 
+  //Practice exercise 1.1
+let x = "syeda";
+let y = "Maliha";
+let z = x+y;
+console.log(z);
 
 
      //Practice exercise 1.2
 console.log("Hello World!")
 
-// let p = 20;
-// let q = 10; 
-// let r = (p-q);       
-// console.log(r);
+   //Practice exercise 1.3
+         //practice of prompt
+ let e = +prompt("Enter yuor email", "your email is");
 
-// let x = "syeda";
-// let y = "maliha";
-// let z = x+y;
-// alert(z);
+     //Practice exercise 1.4
+let a = 6;
+let b = 8;
+let c = 10;
+let d = a+c*b-c;
+console.log(d);
+  
+    //Chapter project
+let i = "Maliha";
+let j = "naz";
+let k = "jaha";
+let l = i + j + k;
+console.log(l);
 
-     //Practice exercise 1.1
-var x = "syeda";
-var y = "Maliha";
-var z = x+y;
-console.log(z);
-
-// var x = 20;
-// var y = "10";
-// var z = x/y;
-// alert(z);
-
-// var a = 6;
-// var b = 8;
-// var c = 10;
-// var d = a+c*b-c;
-// alert(d);
 
 // var a = 5;
 // var b = a++ + ++a - a + a++ - ++a + a; 
 //      // 5     12     7   12    7    12
 // alert(b);
-         
-         //practice of prompt
-var a = +prompt("Enter yuor email", "your email is");
+      
 
 // var x = "enter your value";
 // var y = "your value is";
@@ -52,152 +48,3 @@ var a = +prompt("Enter yuor email", "your email is");
 
      console.log(Math.random() * 1000);
     console.log(Math.floor(Math.random() * 10));
-
-         //practice of if & else
-
-// var age = +prompt("enter your age");
-// var gender = prompt("enter your genter");
-// if (age > 18 && gender == "male") {
-//      alert("you are allowed to ride")
-// }
-// else{
-//      alert("you are not allowed")
-// }
-
-
-// var age = +prompt("enter your age");
-// var gender = prompt("enter you gender");
-// var city = prompt("enter your city");
-// if (age > 20 || gender == "male" && city === "karachi") {
-//      alert("you are allowed")
-// }
-// else{
-//      alert("you are not allowed")
-// }
-
-// var a = 10;
-// var b = 5;
-// if (a !==12) {
-//      document.write("correct")
-// }
-// else{
-//      document.write("incorrect")  
-// }
-
-// var percent = +prompt("Enter your percent");
-// if (percent >= 80 &&  percent <= 100) {
-//      alert("A+")
-// }
-// else if (percent >= 70 &&  percent <= 80){
-//      alert("A")
-// }
-// else if (percent >= 60 &&  percent <= 70){
-//      alert("B")
-// }
-// else if (percent >= 50 &&  percent <= 60){
-//      alert("C")
-// }
-// else if (percent >= 40 &&  percent <= 50){
-//      alert("D")
-// }
-// else if (percent >= 30 &&  percent <= 40){
-//      alert("E")
-// }
-// else if (percent >= 0 &&  percent <= 33){
-//      alert("F")
-// }
-// else{
-//      alert("you didnot write correct percentage")
-// }
-       
-           //practice of arraye
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-
-// console.log(students[3])
-
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-// students.pop()
-
-// console.log(students)
-
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-// students.push("yusra" , "manahil")
-
-// console.log(students)
-
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-// students.shift()
-
-// console.log(students)
-
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain"]
-// students.unshift("ali")
-
-// console.log(students)
-
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
-// students.splice(1 , 2 , "bilal")
-
-// console.log(students)
-
-
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
-// students.splice(1 , 4)
-
-// console.log(students)
-
-// var students = ["maliha", "waleed", "ahmar", "mahnoor", "zain" , "yusra" , "manahil"]
-// var copyStudents = students.slice(1 , 6)
-
-// console.log(students)
-// console.log(copyStudents)
-    
-//              //practice of loop
-// // for(var i = 0; i < 2; i++){
-// //     alert("Hello dear Maliha here")
-// // }
-// // document.write("2" + "x" + "1" + "=" + 2*1 + "<br>")
-// // document.write("2" + "x" + "2" + "=" + 2*2 + "<br>")
-// // document.write("2" + "x" + "3" + "=" + 2*3 + "<br>")
- 
-// for (var i = 1; i <= 10; i++)
-// document.write("2" + "x" + i + "=" + 2*i + "<br>")
- 
-
-// var names = ["maliha", "waleed", "ahmar"];
-
-// for(var i = 0; i < names.length; i++){
-//     console.log(names[i])
-// }
-// // var cities = ["lahore", "islamabad", "karachi", "faislabad"];
-// // for(var i = 0; i < cities.length; i++){
-// //     if(cities[i] === "karachi"){
-// //         alert(cities[i] + "is a cleanest city")
-// //     }
-// // }
-
-// for(var i = 1; i > 0; i++){
-//     if (i === 10){
-//         break
-//     }
-//     console.log("hello world")
-
-// for(var i = 0; i < 5; i++){
-//     for(var j = 0; j < 3; j++){
-//         document.write("Pakistan Zindabad" + "<br>")
-//     }
-// }
-// var firstNames = ["Zain", "Waleed", "Ahmar"]
-// var lastNames = ["Ali", "Ahmad"]
-
-// for(var i = 0; i < firstNames.length; i++){
-//     for(var j = 0; j < lastNames.length; j++){
-//         console.log(firstNames[i] + " " + lastNames[j])
-//     }
-// }
-
-
-
-
-
-
